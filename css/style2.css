@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background: url('/images/wp4128806-flight-wallpapers.jpg'); */
+    background-image: url('bg12.jpg');
+
+    /* background-image: url('/images/home-bg.jpg'); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .7;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.term-box{
+    max-width: 460px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 60px 30px;
+}
+.term-text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    /* font-weight: 500; */
+    color: white;
+}
+.term-text::-webkit-scrollbar{
+    width: 2px;
+    background: black;
+}
+.term-text::-webkit-scrollbar-thumb{
+    background: #29d9d5;
+}
+.term-text h3{
+    text-transform: uppercase;
+}
+.term-box h4{
+    font-size: 12px;
+    text-align: center;
+}
+.term-box h4 span{
+    color: gray;
+}
+.button{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border-radius: 6px;
+    font-size: 19px;
+}
+.red-btn{
+    background-color: #29d9d5;
+}
+.btn:hover{
+    border: green;
+    cursor: pointer;
+}
